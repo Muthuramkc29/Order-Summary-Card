@@ -114,8 +114,7 @@ p {
 }
 
 .btn-div:hover {
-    background-color: var(--clr-neutral-desaturated-blue);
-    opacity: 10;
+    opacity: 0.7;
 }
 
 .cancel-order {
@@ -128,4 +127,12 @@ p {
 
 .change {
     font-weight: 700;
+}
+
+.change:hover {
+    opacity: 0.7;
+}
+
+.cancel-order:hover {
+    color: var(--clr-neutral-dark-blue);
 }
